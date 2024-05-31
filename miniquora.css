@@ -1,0 +1,66 @@
+/* applies to all */
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+/* applies to h1 header */
+h1 {
+    font-weight: bolder;
+    font-style: oblique;
+}
+/* # applies to id*/
+#login {
+    background-color:navy;
+    font-weight: bolder;
+    color: white;
+    font-size:medium;
+}
+#signup {
+    background-color:navy;
+    font-weight: bolder;
+    color: white;
+    font-size: medium;
+}
+/* . applies to class */
+.upvote {
+    color: cadetblue;
+    font-weight: bolder;
+    background-color: honeydew;
+
+}
+.answer {
+    color:red;
+    font-weight: bold;
+    background-color: honeydew;
+}
+/*descendant selector*/
+/* p means paragraph and a means anchor tags*/
+p a {
+    color:darkmagenta;
+}
+/*pseudo class*/
+button:hover {
+    background-color:navy;
+    text-transform: uppercase;
+}
+h3:hover {
+    text-transform: uppercase;
+}
+/*after clicking the button*/
+button:active {
+    background-color:whitesmoke;
+}
+/* checked can also be used for checkbox*/
+input[type="radio"]:checked + label{
+    color: blueviolet;
+}
+/*using pseudo elements first letter*/
+h1::first-letter {
+    color: violet;
+}
+/*similarly for 1st line*/
+h3::selection {
+    background-color: hotpink;
+}
+
+/*Cascading and specificity*/
+
